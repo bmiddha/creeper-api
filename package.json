@@ -1,8 +1,20 @@
 {
   "name": "creeper-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Minecraft API wrapper in TypeScript. Compatible with async/await.",
-  "keywords": ["minecraft", "api", "minecraft-api", "mojang", "mojang-api", "typescript", "async", "await", "async/await", "promise", "es6"],
+  "keywords": [
+    "minecraft",
+    "api",
+    "minecraft-api",
+    "mojang",
+    "mojang-api",
+    "typescript",
+    "async",
+    "await",
+    "async/await",
+    "promise",
+    "es6"
+  ],
   "main": "dist/index.js",
   "types": "dist/node-rcon.d.ts",
   "homepage": "https://github.com/bmiddha/creeper-api",
@@ -12,6 +24,7 @@
     "dist/index.d.ts"
   ],
   "dependencies": {
+    "request": "^2.88.0",
     "request-promise": "^4.2.4"
   },
   "devDependencies": {

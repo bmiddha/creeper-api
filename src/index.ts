@@ -4,7 +4,7 @@ interface Options {
     clientToken: string;
 }
 
-class Creeper {
+export class Creeper {
     private clientToken: string;
     constructor({ clientToken }: Options) {
         this.clientToken = clientToken;
