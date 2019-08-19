@@ -1,6 +1,6 @@
 {
   "name": "creeper-api",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Minecraft API wrapper in TypeScript. Compatible with async/await.",
   "keywords": [
     "minecraft",
@@ -29,7 +29,6 @@
   },
   "devDependencies": {
     "@types/request-promise": "^4.1.44",
-    "chai": "^4.2.0",
     "typescript": "^3.5.3"
   },
   "scripts": {
